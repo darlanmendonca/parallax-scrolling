@@ -1,0 +1,14 @@
+{
+  "name": "parallax-scrolling",
+  "version": "1.0.0",
+  "description": "A component to make parallax scrolling with css (perspective 3d) and js (z-index)",
+  "main": [
+    "dist/mn-input.css",
+    "dist/mn-input.js"
+  ],
+  "authors": [
+    "Darlan Mendonça <darlanmendonca@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}

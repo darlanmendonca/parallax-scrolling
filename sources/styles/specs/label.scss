@@ -1,0 +1,33 @@
+mn-input {
+  label {
+    position: absolute;
+    top: 5px;
+    left: .1em;
+    user-select: none;
+
+    font-size: 1em;
+
+    color: map-get($grey, 400);
+    transition: transform .2s ease, color .2s ease;
+    transform-origin: left center;
+    transform: translateZ(0);
+    pointer-events: none;
+  }
+
+  input:invalid + label {
+    color: map-get($pink, 500);
+  }
+
+  input:focus + label {
+    color: map-get($grey, 900);
+  }
+
+  input:disabled + label {
+    color: map-get($grey, 200);
+  }
+
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    transform: translate(0, -1.3em) scale(.8) translateZ(0);
+  }
+}
