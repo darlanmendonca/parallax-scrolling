@@ -24,22 +24,21 @@ Or just download the main files ```dist/parallax-scrolling.css, dist/parallax-sc
 And then, in your html, you can use the tag:
 
 ```html
-<div class="parallax">
-  <div class="layer background home"></div>
-  <div class="layer base"></div>
-  <div class="layer background about"></div>
-  <div class="layer base"></div>
+<div class="parallax-scrolling">
+  <div class="layer-background home"></div>
+  <div class="layer-base"></div>
+  <div class="layer-background about"></div>
+  <div class="layer-base"></div>
 </div>
 ```
 
 Classes:
 
-- ```.parallax``` define container to parallax sections
-- ```.layer``` each section of page
-- ```.base``` foreground layer in perspective, with solid background-color
-- ```.background``` background layer in perspective
+- ```.parallax-scrolling``` define container to parallax sections
+- ```.layer-base``` foreground layer in perspective, with solid background-color
+- ```.layer-background``` background layer in perspective
 
-Class home, and about just be examples of custom classes that you need implement in your own style. You just need define the background-image, and optionally, background-position, examples:
+Class .home, and .about just be examples of custom classes that you need implement in your own style. You probaly will need define the background-image, background-position, etc. I.e:
 
 ```sass
 // custom css
@@ -53,5 +52,5 @@ Class home, and about just be examples of custom classes that you need implement
 }
 ```
 
-By default, .layer.background have ```background-size: auto 100%```, by convenience.
+By default, .layer-background have ```background-size: auto 100%```, by convenience.
 
