@@ -9,24 +9,40 @@ html
       -webkit-font-smoothing: antialiased;
     }
 
+    .layer-background {
+      background-color: #181d23;
+    }
+
+    .layer-background.home {background-image: url('../imgs/home.jpg')}
+    .layer-background.testimonials {background-image: url('../imgs/testimonials.jpg')}
+    .layer-background.cooking-classes {background-image: url('../imgs/cooking-classes.jpg')}
+    .layer-background.the-books {
+      background-image: url('../imgs/the-books.jpg');
+      background-position: right center;
+    }
+    .layer-background.contact {background-image: url('../imgs/contact.jpg')}
+
+    .layer-base.footer {
+      min-height: 50vh;
+      box-shadow: 0 -1px 3px rgba(0, 0, 0, .3);
+    }
 
 body
-  p home
-  .parallax
-    .layer.background.home
-    .layer.base
+  .parallax-scrolling
+    section.layer-background.home
+    section.layer-base
     
-    .layer.background.testimonials
-    .layer.base
+    section.layer-background.testimonials
+    section.layer-base
 
-    .layer.background.cooking-classes
-    .layer.base
+    section.layer-background.cooking-classes
+    section.layer-base
 
-    .layer.background.the-books
-    .layer.base
+    section.layer-background.the-books
+    section.layer-base
 
-    .layer.background.contact
-    footer.layer.base.footer
+    section.layer-background.contact
+    footer.layer-base.footer
 
   
   script(src='parallax-scrolling.js')

@@ -1,3 +1,7 @@
-@import 'specs/colors.scss';
-@import 'specs/input.scss';
-@import 'specs/label.scss';
+/* inject:imports */
+/* endinject */
+
+@import 'specs/body';
+@import 'specs/parallax';
+@import 'specs/layer-base';
+@import 'specs/layer-background';

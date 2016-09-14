@@ -20,7 +20,7 @@ function stylesTask() {
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle}))
     .pipe(autoprefixer())
-    .pipe(rename('mn-input.css'))
+    .pipe(rename('parallax-scrolling.css'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(config.styles.dest))
     .pipe(browserSync.stream({match: '**/*.css'}));

@@ -20,7 +20,7 @@ function scriptsTask() {
     .pipe(babel())
     .pipe(concat('app.js'))
     .pipe(uglify({mangle: false}))
-    .pipe(rename('mn-input.js'))
+    .pipe(rename('parallax-scrolling.js'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(config.scripts.dest));
 }

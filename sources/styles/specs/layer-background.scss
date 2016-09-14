@@ -1,0 +1,11 @@
+.layer-background {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  min-height: 100vh;
+
+  @media (min-device-width: 1024px) {
+    transform: translateZ(-100px) scale(2);
+  }
+}

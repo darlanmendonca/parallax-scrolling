@@ -1,0 +1,14 @@
+.parallax-scrolling {
+  height: 100vh;
+
+  @media (min-device-width: 1024px) {
+    perspective: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .layer-background,
+  .layer-base {
+    transform-origin: center;
+  }
+}

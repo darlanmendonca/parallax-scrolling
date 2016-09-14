@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+@media (min-device-width: 1024px) {
+  body, html {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,8 @@
+.layer-base {
+  transform: translateZ(0);
+  min-height: 70vh;
+  position: relative;
+  z-index: 10;
+  background-color: rgb(236, 235, 223);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}

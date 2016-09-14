@@ -9,9 +9,9 @@ module.exports = {
     es6: true,
     mocha: true,
     protractor: true,
+    browser: true,
   },
   globals: {
-    angular: true,
     expect: true,
   },
   rules: {
