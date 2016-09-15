@@ -2,7 +2,7 @@
 
 A component to make parallax scrolling with css (perspective 3d) and js (z-index)
 
-<!-- See the [demo](http://codepen.io/darlanmendonca/pen/akgXQq) -->
+See the [demo](http://codepen.io/darlanmendonca/full/NRNvRZ/)
 
 ### Install
 
