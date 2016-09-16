@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "A component to make parallax scrolling with css (perspective 3d) and js (z-index)",
   "main": [
-    "dist/mn-input.css",
-    "dist/mn-input.js"
+    "dist/parallax-scrolling.css",
+    "dist/parallax-scrolling.js"
   ],
   "authors": [
     "Darlan Mendonça <darlanmendonca@gmail.com>"
