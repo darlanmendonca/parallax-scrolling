@@ -42,11 +42,11 @@ Class .home, and .about just be examples of custom classes that you need impleme
 
 ```sass
 // custom css
-.background.home {
+.layer-background.home {
   background-image: url('path/to/img');
 }
 
-.background.about {
+.layer-background.about {
   background-image: url('path/to/img');
   background-position: center right;
 }
