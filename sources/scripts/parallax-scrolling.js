@@ -4,8 +4,10 @@ let parallax;
 let layers;
 let layerVisible;
 
+parallaxScrolling();
+
 function parallaxScrolling(element) { // eslint-disable-line no-unused-vars
-  parallax = element || parallax || document.querySelector('.parallax-scrolling');
+  parallax = parallax || element || document.querySelector('.parallax-scrolling');
   layers = layers || Array.from(parallax.querySelectorAll('.layer-background'));
 
   if (layers.length) {
