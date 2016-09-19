@@ -32,6 +32,12 @@ And then, in your html, you can use the tag:
 </div>
 ```
 
+```js
+// in your own js
+// invoke parallaxScrolling function
+parallaxScrolling();
+```
+
 Classes:
 
 - ```.parallax-scrolling``` define container to parallax sections
