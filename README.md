@@ -4,6 +4,13 @@ A component to make parallax scrolling with css (perspective 3d) and js (z-index
 
 See the [demo](http://codepen.io/darlanmendonca/full/NRNvRZ/)
 
+This module is built in pure javascript. But we wish make it for another frameworks, check below our to do list:
+
+- [x] [angular](https://github.com/darlanmendonca/angular-parallax-scrolling)
+- [ ] react
+- [ ] vue
+- [ ] ... (open an issue)
+
 ### Install
 
 With bower
