@@ -23,7 +23,7 @@ Or just download the main files ```dist/parallax-scrolling.css, dist/parallax-sc
 
 ```html
 <link rel="stylesheet" href="path/to/parallax-scrolling.css">
-<script src="path/to/parallax-scrolling.css"></script>
+<script src="path/to/parallax-scrolling.js"></script>
 ```
 
 ### Usage
